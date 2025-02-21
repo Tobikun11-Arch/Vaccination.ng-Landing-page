@@ -3,7 +3,7 @@ import Header from "./components/Header/Header"
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-[#0B153C] text-white cursor-default">
+    <div className="w-full min-h-screen bg-[rgb(11,21,60)] text-white cursor-default">
       <Header/>
       <Home/>
       <Banner/>
