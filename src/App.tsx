@@ -1,5 +1,4 @@
-import Home from "./pages/Home"
-import Services from "./pages/Services"
+import { Home, Services, Banner } from './pages/index'
 import Header from "./components/Header/Header"
 
 function App() {
@@ -7,6 +6,7 @@ function App() {
     <div className="w-full min-h-screen bg-[#0B153C] text-white cursor-default">
       <Header/>
       <Home/>
+      <Banner/>
       <Services/>
     </div>
   )
