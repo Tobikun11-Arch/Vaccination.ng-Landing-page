@@ -24,7 +24,6 @@ export default function Schedule() {
                    <button className="w-full mt-3 py-2 bg-blue-600 rounded-md text-white font-semibold">Submit</button>
                     <p className="text-gray-500 font-semibold w-full text-center mt-3">Already registered? <span className="text-blue-400 font-semibold">Check your status</span></p>
                 </div> 
-
                 <div className="w-full lg:flex justify-center items-center hidden">
                     <div className="relative flex justify-center items-center w-2/5">
                         <img src="/injection.jpg" alt="Injection vaccine" className="w-full h-80 rounded-md"/>
