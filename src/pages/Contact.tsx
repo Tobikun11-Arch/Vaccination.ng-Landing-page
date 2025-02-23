@@ -1,8 +1,14 @@
 import { Mail } from 'lucide-react';
+import { motion } from "framer-motion";
 
 export default function Contact() {
     return (
         <main className="h-screen w-full flex justify-center items-center bg-[#E7F0FF] text-black px-4" id='contact'>
+             <motion.section 
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                viewport={{ once: false }}>
             <section className="flex flex-col md:flex-row gap-12">
                 <div className="text-gray-500 text-sm font-semibold">
                     <h1 className="text-4xl font-bold text-black">Contact us</h1>
@@ -29,6 +35,7 @@ export default function Contact() {
                     <button className='bg-blue-600 text-white font-semibold text-xs w-full py-2 mt-3 rounded-lg'>Submit</button>
                 </form>
             </section> 
+            </motion.section>
         </main>
     )
 }

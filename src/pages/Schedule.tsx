@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
+
 export default function Schedule() {
     return (
         <main className="bg-white text-black p-4 sm:p-10 sm:py-20 w-full" id="schedule">
+              <motion.section 
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, ease: "easeOut" }}
+                viewport={{ once: false }}>
             <section className="flex flex-col lg:flex-row justify-between">
                 <div className="w-full">
                     <h1 className="font-bold text-3xl">Get your vaccine <br />registration today</h1>
@@ -32,6 +39,7 @@ export default function Schedule() {
                     </div>
                 </div>
             </section>
+            </motion.section>
         </main>
     )
 }
