@@ -4,7 +4,7 @@ export default function Schedule() {
             <section className="flex flex-col lg:flex-row justify-between">
                 <div className="w-full">
                     <h1 className="font-bold text-3xl">Get your vaccine <br />registration today</h1>
-                    <div className="w-full lg:hidden justify-center items-center mt-5">
+                    <div className="w-full lg:hidden justify-center items-center mt-10">
                         <div className="relative flex justify-center items-center w-full sm:w-2/5">
                             <img src="/injection.jpg" alt="Injection vaccine" className="w-full h-80 rounded-md"/>
                             <img src="/coronavirus.png" alt="coronavirus" className="absolute -top-6 -left-9 w-20 h-16"/>

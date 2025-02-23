@@ -1,4 +1,4 @@
-import { Home, Services, Banner, Schedule } from './pages/index'
+import { Home, Services, Banner, Schedule, Contact } from './pages/index'
 import Header from "./components/Header/Header"
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Banner/>
       <Services/>
       <Schedule/>
+      <Contact/>
     </div>
   )
 }
