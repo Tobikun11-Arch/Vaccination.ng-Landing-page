@@ -2,7 +2,7 @@ import { Shield, MoveRight, Users, Thermometer } from 'lucide-react';
 
 export default function Services() { 
   return (
-    <main className="min-h-screen p-5 flex flex-col justify-center items-center w-full">
+    <main className="min-h-screen p-5 flex flex-col justify-center items-center w-full" id="services">
       <section className="bg-violet-700/10 shadow-lg backdrop-blur-xs w-full sm:w-3/5">
         <div className="w-full bg-white/25 shadow-lg backdrop-blur-sm rounded-t-lg px-4 sm:px-10 py-4">
          <h1 className="text-xs sm:text-sm lg:text-base">Check your COVID-19 result on your Database</h1>

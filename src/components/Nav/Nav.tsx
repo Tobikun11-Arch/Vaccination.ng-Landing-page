@@ -7,7 +7,7 @@ interface NavOnclick {
 export default function Nav({ onToggle }: NavOnclick) {
     return (
         <nav className={`lg:flex text-lg items-center gap-5 font-bold ${onToggle ? 'block' : 'hidden'}`}>
-            <NavList href="" label="Home" />
+            <NavList href="#services" label="Home" />
             <NavList href="" label="Services"/>
             <NavList href="" label="Schedule"/>
             <NavList href="" label="Contact us"/>
