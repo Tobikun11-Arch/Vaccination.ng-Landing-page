@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# 🚀 [Vaccination.ng – A Responsive Vaccination Landing Page]
+> Vaccination.ng is a modern and fully responsive landing page designed to provide essential vaccination information in a clean and user-friendly interface. It ensures easy navigation for users to access key sections such as Home, Services, Schedule, and Contact Us.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔗 Live Demo  
+https://vaccination-landing-page.vercel.app/
 
-Currently, two official plugins are available:
+## 📸 Preview  
+![image](https://github.com/user-attachments/assets/061824d7-7023-4798-bb8b-19378ccac045)
+![image](https://github.com/user-attachments/assets/5ed93fbd-b48a-4db8-a43c-df87ca4680af)
+![image](https://github.com/user-attachments/assets/73edcaa1-d1bb-4016-810f-dcb477e8b1d2)
+![image](https://github.com/user-attachments/assets/5282867b-8c2e-4021-8c7c-5fc89793a686)
+![image](https://github.com/user-attachments/assets/dd7c378b-feca-4275-8516-ba802230d510)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack  
+- **Frontend:** Vite, TypeScript, Tailwind CSS and Framer motion
+- **Hosting:** Vercel (Frontend)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ⚡ Features  
+✅ Informative & Clear Design – A sleek layout that effectively presents vaccination details for users. <br/>
+✅ Responsive & Mobile-Friendly – Optimized for all devices, ensuring accessibility on desktops, tablets, and smartphones. <br/>
+✅ Fast & Lightweight – Built with Vite, React (TSX), Tailwind CSS, and Framer Motion for high performance and smooth animations. 
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+📬 **Contact**  
+👤 Joenel Sevellejo  
+📧 Email: [joenelsevellejo831@gmail.com](mailto:joenelsevellejo831@gmail.com)  
+🔗 Portfolio: yourportfolio.com //soon  
+🐙 GitHub: [github.com/Tobikun11-Arch](https://github.com/Tobikun11-Arch)  
