@@ -9,7 +9,7 @@ export default function Home() {
                     <h5 className="mt-10 font-semibold text-gray-400 text-xs sm:text-base">Vaccination.ng will help help you find the nearest <br /> centre for vaccination, in all 36 states in Nigeria.</h5>
 
                     <div className="flex gap-2 font-semibold mt-5">
-                        <button className="bg-[#17C2EC] hover:bg-[#0B153C] hover:border-2 border-gray-600 w-32 py-2 rounded-md">Get Vaccine</button>
+                        <button className="bg-[#17C2EC] hover:border-2 border-gray-600 w-32 py-2 rounded-md">Get Vaccine</button>
                         <button className="bg-[#0B153C] hover:bg-[#17C2EC] w-32 py-2 rounded-md border-2 border-gray-600">Help centre</button>
                     </div>
                 </div>
