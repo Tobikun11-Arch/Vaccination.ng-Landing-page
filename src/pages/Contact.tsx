@@ -2,7 +2,7 @@ import { Mail } from 'lucide-react';
 
 export default function Contact() {
     return (
-        <main className="h-screen w-full flex justify-center items-center bg-[#E7F0FF] text-black px-4">
+        <main className="h-screen w-full flex justify-center items-center bg-[#E7F0FF] text-black px-4" id='contact'>
             <section className="flex flex-col md:flex-row gap-12">
                 <div className="text-gray-500 text-sm font-semibold">
                     <h1 className="text-4xl font-bold text-black">Contact us</h1>

@@ -1,6 +1,6 @@
 export default function Schedule() {
     return (
-        <main className="bg-white text-black p-4 sm:p-10 w-full">
+        <main className="bg-white text-black p-4 sm:p-10 sm:py-20 w-full" id="schedule">
             <section className="flex flex-col lg:flex-row justify-between">
                 <div className="w-full">
                     <h1 className="font-bold text-3xl">Get your vaccine <br />registration today</h1>

@@ -1,7 +1,7 @@
 export default function Home() {
     
     return (
-        <main className="min-h-screen flex items-center justify-center px-4 sm:px-0">
+        <main className="min-h-screen flex items-center justify-center px-4 sm:px-0" id="home">
             <section className="flex flex-col lg:flex-row gap-10 lg:gap-44 mt-0 sm:mt-24 lg:mt-0">
                 <div className="">
                     <h5 className="text-[#17C2EC] text-sm sm:text-xl font-semibold">Get Vaccinated. Boost your Immune System</h5>
