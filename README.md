@@ -1,4 +1,4 @@
-# 🚀 [Vaccination.ng – A Responsive Vaccination Landing Page]
+# 🚀Vaccination.ng – A Responsive Vaccination Landing Page
 > Vaccination.ng is a modern and fully responsive landing page designed to provide essential vaccination information in a clean and user-friendly interface. It ensures easy navigation for users to access key sections such as Home, Services, Schedule, and Contact Us.
 
 ## 🔗 Live Demo  
